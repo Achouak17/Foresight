@@ -1,0 +1,26 @@
+# Python 3.9 compatible requirements
+streamlit
+pandas
+numpy
+
+# Optional: keep only if you're using Spark
+# pyspark==3.3.0
+
+altair
+folium
+branca
+mlflow==2.6.0
+
+# LightGBM with Linux wheels
+lightgbm==4.3.0
+
+joblib==1.5.2
+scikit-learn==1.4.2
+plotly
+streamlit-folium
+
+huggingface_hub
+
+# Safe versions for Hugging Face Linux
+h3==3.7.6
+shapely==1.8.5.post1
